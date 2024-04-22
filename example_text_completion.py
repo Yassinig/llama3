@@ -8,6 +8,7 @@ import fire
 from llama import Llama
 
 
+
 def main(
     ckpt_dir: str,
     tokenizer_path: str,
@@ -39,7 +40,16 @@ def main(
 
         Hi everyone,
 
-        I just """,
+    
+
+         I just,,
+         wanted to say congratulations on the successful launch of our new product. It's been a long journey, but we made it!
+         I'm incredibly proud of each and every one of you for your hard work and dedication.
+          Let's continue to strive for excellence in everything we do.
+
+Best regards,
+
+[Your Name]""",
         # Few shot prompt (providing a few examples before asking model to complete more);
         """Translate English to French:
 
